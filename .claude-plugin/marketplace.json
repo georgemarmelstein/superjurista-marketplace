@@ -1,0 +1,28 @@
+{
+  "name": "superjurista-marketplace",
+  "owner": {
+    "name": "George Marmelstein",
+    "email": "george@superjurista.com"
+  },
+  "metadata": {
+    "description": "Plugins juridicos para Claude Code - ferramentas para magistrados e profissionais do direito",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "superjurista-dev",
+      "source": {
+        "source": "github",
+        "repo": "georgemarmelstein/superjurista-dev",
+        "ref": "main"
+      },
+      "description": "Meta-ferramentas para criar sistemas agenticos judiciais: agentes, orquestradores, skills, teams e scaffold completo do SuperJurista",
+      "version": "1.0.0",
+      "author": {
+        "name": "George Marmelstein"
+      },
+      "license": "MIT",
+      "keywords": ["judicial", "legal", "agents", "pipelines", "jurisprudencia", "superjurista"]
+    }
+  ]
+}
